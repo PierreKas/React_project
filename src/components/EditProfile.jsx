@@ -48,7 +48,7 @@ function EditProfile({ user, onSave, onCancel }) {
         <button classname="save" onClick={handleSave}>Save</button>
         <button classname="cancel" onClick={onCancel}>Cancel</button>
       </div>
-      <Link to="/editprofile">Edit Profile</Link>
+      <Link to="/Dashboard">Dashboard</Link>
     </div>
   );
 }

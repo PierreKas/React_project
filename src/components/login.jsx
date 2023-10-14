@@ -35,7 +35,7 @@ const Login = () =>{
                 <h3>Login failed</h3>
                 <p>user or password incorrect</p>
             </div>
-            <Link to="/Dashboard">Edit Profile</Link>    
+            <Link to="/Dashboard">Dashboard</Link>    
        </div>
     )
 }
