@@ -94,6 +94,22 @@ input{
     transition: 1.5s;
 }
 
+
+.cover {
+  background-color: rgb(11, 60, 11);  
+  color: #FFF; 
+}
+
+.Lg-btn {
+  background-color: #8F9779; 
+}
+
+.Lg-btn:hover {
+  background-color: #556B2F; 
+}
+.text{
+  color: white;
+}
 /*dashboard*/
 
 .dashboard {
@@ -162,9 +178,10 @@ input{
     background-color: black; /* once touched the edit button*/
   }
   
+  
 /* Edit profile */
 
-/* edit-profile.css */
+
 
 .profile-edit {
   background-color: #fff; 
@@ -213,5 +230,9 @@ button:hover {
   justify-content: space-between;
   padding: 20px;
 }
+
+
+
+
 
 

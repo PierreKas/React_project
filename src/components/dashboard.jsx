@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import EditProfile from "./EditProfile.jsx";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function Dashboard() {
   const [user, setUser] = useState({
     name: "Pierre KASANANI",
@@ -46,7 +46,7 @@ function Dashboard() {
       {isEditing && (
         <EditProfile user={user} onSave={handleSaveProfile} onCancel={handleCancelEdit} />
       )}
-      <Link to="/editprofile">Edit Profile</Link>
+      {/* <Link to="/editprofile">Edit Profile</Link> */}
     </div>
   );
 }
